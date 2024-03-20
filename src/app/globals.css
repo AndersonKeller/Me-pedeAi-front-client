@@ -6,6 +6,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  --primary: #574E6D;
+  --primarydark: #43405D;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,18 +31,20 @@ body {
 
 p{
   font-size: 0.875rem;
-    line-height: 1.25rem;
+  line-height: 1.25rem;
+  
 }
 input {
-  height: 45px;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
+  height: 58px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
   padding-left: 8px;
   outline: none;
-  color: black;
+  color: #eeeeee;
+  background-color: var(--primarydark);
 }
 button {
   cursor: pointer;
